@@ -1,0 +1,379 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+body{
+          height: 100vh;
+          width: 100vw;
+}
+.container{
+          height: 100%;
+          width: 100%;
+          padding: 3rem;
+          background-color: rgb(220, 220, 201);
+          border: 2px solid black;
+          display: grid;
+         grid-template-columns: repeat(3, 1fr);
+          row-gap: 1rem;
+          column-gap: 1rem;
+          
+
+
+
+}
+.box1{
+          background-color: aqua;
+          border: 4px solid black;
+          display: grid;
+           grid-template-columns: repeat(3, 1fr);
+            row-gap: 0.3rem;
+          column-gap: 0.3rem;
+          padding: 1rem;
+}
+.first{
+          display: grid;
+           
+           background-color: rgb(222, 193, 248);
+           border: 2px solid black;
+            
+
+
+}
+.box2{
+          background-color: aqua;
+          border: 4px solid black;
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+            row-gap: 0.3rem;
+          column-gap: 0.3rem;
+          padding: 1rem;
+      
+}
+.second{
+          background-color: brown;
+          border: 2px solid black;
+         
+
+}
+.second-first{
+   background-color: rgb(134, 109, 109);
+  grid-column-start: 1;
+grid-column-end: 3;
+
+
+    
+}
+.second-second{
+  background-color: rgb(220, 125, 125);
+  grid-column-start: 3;
+grid-row-start: 1;
+grid-row-end: 3;
+
+
+}
+
+.box3{
+          background-color: aqua;
+          border: 4px solid black;
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          grid-template-rows: repeat(3,1fr);
+
+          column-gap: 0.3rem;
+          row-gap: 0.3rem;
+          padding: 1rem;
+}
+
+.third-first{
+   background-color: burlywood;
+   grid-column-start: 1;
+   grid-column-end: 4;
+
+}
+.third-second{
+   background-color: burlywood;
+   grid-row-start: 2;
+ 
+
+}
+.third-third{
+   background-color: burlywood;
+ grid-column-start: 2;
+   grid-column-end: 4;
+
+}
+.third-fourth{
+   background-color: burlywood;
+ grid-column-start: 1;
+   grid-column-end: 4;
+
+}
+
+
+
+.box4{
+          background-color: aqua;
+          border: 4px solid black;
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          grid-template-rows: repeat(3,1fr);
+          row-gap: 0.3rem;
+          column-gap: 0.3rem;
+          padding: 1rem;
+}
+
+.fourth-one{
+  background-color: rgb(205, 147, 77);
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+}
+.fourth-second{
+  background-color: rgb(205, 147, 77);
+  grid-column-start:3;
+  grid-column-end: 5;
+
+}
+.fourth-third{
+  background-color: rgb(205, 147, 77);
+grid-row-start: 2;
+}
+.fourth-fourth{
+  background-color: rgb(205, 147, 77);
+  grid-column-start: 2;
+  grid-column-end: 5;
+
+}
+.fourth-fifth{
+  background-color: rgb(205, 147, 77);
+  grid-column-start: 1;
+  grid-column-end: 5;
+
+}
+
+
+.box5{
+          background-color: aqua;
+          border: 4px solid black;
+          display: grid;
+          grid-template-columns:repeat(6,1fr) ;
+            row-gap: 0.3rem;
+          column-gap: 0.3rem;
+          padding: 1rem;
+          
+
+}
+.fifth{
+  background-color: chocolate;
+    display: grid;
+         
+      
+          border: 1px solid rgb(228, 223, 223);
+          
+}
+.box6{
+          background-color:aqua;;
+          border: 4px solid black;
+          display: grid;
+          row-gap: 0.3rem;
+          column-gap:0.3rem;
+          padding: 1rem;
+           grid-template-columns:repeat(4,1fr) ;
+           grid-template-rows: repeat(5,1fr);
+           
+}
+.sixth{
+  background-color:rgb(197, 171, 55) ;
+         
+}
+.sixth-one{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color:cadetblue
+}
+.sixth-fifth{
+ grid-row-start: 3;
+ grid-row-end: 4;
+ grid-column-start: 3;
+ grid-column-end: 3;
+  background-color:rgb(238, 111, 200)
+}
+.sixth-sixth{
+ grid-row-start: 3;
+ grid-row-end: 4;
+  background-color:rgb(197, 241, 138)
+}
+.sixth-seven{
+ grid-row-start: 4;
+ grid-row-end: 5;
+  background-color:rgb(130, 130, 239)
+}
+.sixth-eight{
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color:rgb(215, 106, 106)
+
+}
+.sixth-nine{
+    grid-row-start: 3;
+ grid-row-end: 5;
+ grid-column-start: 1;
+ grid-column-end: 3;
+  background-color:rgb(158, 229, 25)
+
+}
+
+.sixth-ten{
+    grid-row-start: 5;
+ grid-row-end: 6;
+ grid-column-start: 4;
+ grid-column-end: 5;
+  background-color:rgb(229, 127, 25)
+
+}
+.sixth-eleven{
+  grid-row-start: 5;
+ grid-row-end: 6;
+ grid-column-start: 1;
+ grid-column-end: 4;
+  background-color:rgb(125, 125, 233)
+
+}
+
+.box7{
+          background-color: aqua;
+          border: 4px solid black;
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          grid-template-rows: repeat(3,1fr);
+          padding: 1rem;
+          column-gap: 0.3rem;
+          row-gap: 0.3rem;
+}
+.seventh{
+  background-color: indigo;
+
+}
+.seventh-one{
+   background-color: indigo;
+   grid-column-start: 1;
+   grid-column-end: 3;
+
+
+}
+.seventh-two{
+   background-color: indigo;
+   grid-column-start: 3;
+   grid-column-end: 5;
+
+
+}
+.seventh-three{
+   background-color: indigo;
+   grid-row-start: 2;
+   grid-row-end: 4;
+   grid-column-start:1;
+  grid-column-end:3;
+
+}
+.seventh-fourth{
+   background-color: indigo;
+   grid-row-start: 2;
+   grid-row-end: 4;
+   grid-column-start:3;
+  grid-column-end:5;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  row-gap: 0.3em;
+  column-gap: 0.3em;
+  padding: 1em;
+
+}
+.child{
+  background-color: burlywood;
+}
+.child1{
+  background-color: burlywood;
+  grid-column-start: 1;
+  grid-column-end:5;
+}
+.child2{
+  background-color: burlywood;
+  grid-row-start: 2;
+  grid-row-end:4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+}
+.child3{
+  background-color: burlywood;
+  grid-column-start: 3;
+  grid-column-end:5;
+  grid-row-start: 2;
+  grid-row-end:4;
+}
+.box8{
+          background-color: aqua;
+          border: 4px solid black;
+          display: grid;
+          grid-template-columns: repeat(5, 1fr);
+          grid-template-rows: repeat(3, 1fr);
+          padding:1rem;
+          column-gap: 0.3rem;
+          row-gap: 0.3rem;
+          /* background-color: aqua;
+          border: 4px solid black;
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          grid-template-rows: repeat(3,1fr);
+          padding: 1rem;
+          column-gap: 0.3rem;
+          row-gap: 0.3rem; */
+}
+.eight{
+  background-color: rgb(195, 220, 103);
+}
+.eight-one{
+  background-color: rgb(195, 220, 103);
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  
+}
+.eight-two{
+  background-color: rgb(195, 220, 103);
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  
+}
+.box9{
+          background-color: aqua;
+          border: 4px solid black;
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          row-gap: 0.3rem;
+          column-gap: 0.3rem;
+          padding: 1rem;
+}
+.ninth{
+  background-color: darkslategray;
+}
+.ninth-one{
+  background-color: darkslategray;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.ninth-two{
+  background-color: darkslategray;
+  grid-row-start: 2;
+  grid-row-end:4;
+}
+.ninth-three{
+  background-color: darkslategray;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
